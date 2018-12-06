@@ -6,4 +6,5 @@ public interface Checker {
      * @return true if it accepts; false otherwise
      */
     boolean accept(String text);
+    String getChecker();
 }
